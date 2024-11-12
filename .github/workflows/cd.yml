@@ -38,10 +38,12 @@ jobs:
         with:
           go-version: 1.23
           check-latest: true
+
       - name: "Install go-vanity-ssg"
-        run: go install xobotyi.github.io/go/go-vanity-ssg
+        run: go install xobotyi.github.io/go/go-vanity-ssg@latest
       - name: "Build"
         run: go-vanity-ssg --public
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
