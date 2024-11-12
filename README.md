@@ -1,0 +1,1 @@
+Repository holding gh-pages for `xobotyi.github.io/go` vanity URI's

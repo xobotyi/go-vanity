@@ -1,0 +1,15 @@
+out-dir: ./dist
+
+vanity-root: xobotyi.github.io/go
+
+packages:
+  - name: "go-vanity-ssg"
+    description: 😎 Golang vanity imports static site generator
+    source:
+      vcs-type: "git"
+      vcs-uri: "https://github.com/xobotyi/go-vanity-ssg"
+      uri: "https://github.com/xobotyi/go-vanity-ssg"
+      dir-uri: "https://github.com/xobotyi/go-vanity-ssg{/dir}"
+      file-uri: "https://github.com/xobotyi/go-vanity-ssg{/dir}/{file}#L{line}"
+      swag:
+        - <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/xobotyi/go-vanity-ssg?style=flat-square">
